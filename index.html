@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <title>Text Repeater | Premium Edition</title>
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="app-container">
+        
+        <main class="card">
+            <header>
+                <h1 class="title">Text Repeater</h1>
+            </header>
+
+            <div class="input-group">
+                <label for="text">Input Text</label>
+                <textarea id="text" placeholder="What should I repeat?"></textarea>
+            </div>
+
+            <div class="row">
+                <div class="field">
+                    <label for="count">Count</label>
+                    <input type="number" id="count" value="10" min="1" pattern="\d*">
+                </div>
+
+                <div class="field toggle-box">
+                    <label>Space</label>
+                    <div class="toggle" id="spaceToggle" role="checkbox" aria-checked="false"></div>
+                </div>
+
+                <div class="field toggle-box">
+                    <label>New Line</label>
+                    <div class="toggle active" id="newlineToggle" role="checkbox" aria-checked="true"></div>
+                </div>
+            </div>
+
+            <div class="actions">
+                <button class="run" onclick="repeatText()" title="Generate Text">
+                    <i class="fas fa-bolt"></i> RUN
+                </button>
+
+                <button class="copy" onclick="copyText()" title="Copy to Clipboard">
+                    <i class="fas fa-copy"></i>
+                </button>
+
+                <button class="share" onclick="shareWhatsApp()" title="Share on WhatsApp">
+                    <i class="fab fa-whatsapp"></i>
+                </button>
+            </div>
+
+            <div class="output-group">
+                <label for="result">Output Preview</label>
+                <textarea id="result" placeholder="Repeated text will appear here..." readonly></textarea>
+            </div>
+
+            <footer class="footer">
+                <p>Designed by <strong>Ujjwal</strong></p>
+                <a href="https://github.com/" target="_blank" class="github-btn">
+                    <i class="fab fa-github"></i>
+                    <span>GitHub</span>
+                </a>
+            </footer>
+        </main>
+
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
