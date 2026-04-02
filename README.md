@@ -21,7 +21,7 @@ A high-performance, futuristic web utility designed to repeat text instantly wit
 
 ## 🚀 Live Demo
 
-Check out the live version here: **[Insert Your Vercel/Netlify/GitHub Link Here]**
+Check out the live version here: **https://pandeyujjwal975.github.io/text-repeater/**
 
 ---
 
@@ -38,10 +38,10 @@ Check out the live version here: **[Insert Your Vercel/Netlify/GitHub Link Here]
 
 1. **Clone the repository**
    ```bash
-   git clone [https://github.com/yourusername/text-repeater-ultra.git](https://github.com/yourusername/text-repeater-ultra.git)
+   git clone https://github.com/pandeyujjwal975/text-repeater
 
  * Navigate to the folder
-   cd text-repeater-ultra
+   cd text-repeater
 
  * Launch
    Simply open index.html in any modern web browser.
