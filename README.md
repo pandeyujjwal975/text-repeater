@@ -57,6 +57,6 @@ Ujjwal
  * GitHub: @pandeyujjwal975
 📄 License
 This project is licensed under the MIT License.
-<p align="center">Made with 💙 and Holographic Glass UI</p>
+
 
 ------
